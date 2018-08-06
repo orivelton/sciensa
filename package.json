@@ -1,0 +1,20 @@
+{
+  "name": "sciensa",
+  "version": "1.0.0",
+  "description": "Desafio HR Tech 2018 1. Considere o seguinte programa: #include < stdio.h > #include < string.h >   int main(void) {     int i, j;     char nome[80], c;     gets(nome); for (i = 0, j = strlen(nome)-1; i < strlen(nome); i++, j--) { c = nome[i]; nome[i] = nome[j]; nome[j] = c;     }     puts(nome);     return 0; } O que será impresso caso a cadeia de caracteres fornecida seja 43218765? (a) 43218765 (b) 87654321 (c) 18726354 (d) 56781234 (e) 12345678  2. Considere o seguinte programa:     #include < stdio.h > int main(void) { int i, j; for (i = 1; i <= 5; i++) { for (j = 0; j <= 5; j++) { if(i <= j) {         printf(\" % d \", j);       } }     printf(\" \\ n \");   } return 0; }  O que será impresso por este programa?         (a) 1 12 123 1234 12345 (b) 00000 11111 22222 33333 44444 (c) 0 01 012 0123 01234 (d) 01234 0123 012 01 0 (e) 12345 2345 345 45 5           3. Considere o seguinte programa:     #include < stdio.h > #include < string.h > int main(void) { char nome[21]; int i; gets(nome); for (i = 0; i < strlen(nome); i++) {       if(nome[i] == ' ') { break; } } i++; for (; i < strlen(nome); i++) {       printf(\" % c \", nome[i]);     } return 0; }   O que será impresso, caso seja fornecido, para o programa, os caracteres \"questao muito facil\" , como indicado abaixo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orivelton/sciensa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orivelton/sciensa/issues"
+  },
+  "homepage": "https://github.com/orivelton/sciensa#readme"
+}

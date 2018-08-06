@@ -8,57 +8,57 @@
    * 2 = E
    */
 
-  // function chalange2() {
-  //   var i, j;
-  //   for(i = 1; 1 <= 5;  i++) {
-  //     for(j = 0; j <= 5; j++) {
-  //       if(i <= j){
-  //         console.log(' % ', j);
-  //       }
-  //     }
-  //     console.log(' \ n ')
-  //   }
-  //   return 0;
-  // }
+  function challenge2() {
+    var i, j;
+    for(i = 1; 1 <= 5;  i++) {
+      for(j = 0; j <= 5; j++) {
+        if(i <= j){
+          console.log(' % ', j);
+        }
+      }
+      console.log(' \ n ')
+    }
+    return 0;
+  }
 
-  // chalange2();
+  challenge2();
 
   /**
    * 3 = E
    */
 
-  // function chalenge3(text) {
-  //   //questao muito facil
-  //   var nome = text;
-  //   nome.split('');
-  //   var i;
+  function challenge3(text) {
+    //questao muito facil
+    var nome = text;
+    nome.split('');
+    var i;
 
-  //   for (i = 0; i < nome.length; i++) {
-  //     if(nome[i] == ' ') {
-  //       break;
-  //     }
-  //   }
-  //   i++;
+    for (i = 0; i < nome.length; i++) {
+      if(nome[i] == ' ') {
+        break;
+      }
+    }
+    i++;
 
-  //   for(i ; i < nome.length; i++ ) {
-  //     console.warn(" % c ", nome[i]);
-  //   }
-  //   return 0;
-  // }
+    for(i ; i < nome.length; i++ ) {
+      console.warn(" % c ", nome[i]);
+    }
+    return 0;
+  }
 
-  // chalenge3('questao muito facil');
+  challenge3('questao muito facil');
 
   /**
    * 4 = E
    */
 
-  // function chalenge4() {
-  //   var a;
-  //   console.log(" % d % d ", a && !a, a || !a); 
-  //   return 0;
-  // }
+  function challenge4() {
+    var a;
+    console.log(" % d % d ", a && !a, a || !a); 
+    return 0;
+  }
 
-  // chalenge4();
+  challenge4();
 
   /**
    * 5 = B
@@ -68,33 +68,33 @@
    * 6 = B
    */
 
-  // function chalange6() {
-  //   var v = [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10];
-  //   var i, maior, s;
+  function challenge6() {
+    var v = [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10];
+    var i, maior, s;
 
-  //   maior = s = 0;
+    maior = s = 0;
 
-  //   for (i = 0; i < 10; i++) {
-  //     s += v[i];
-  //     if (v[i] > maior) {
-  //       maior = v[i];
-  //     }
-  //   }
-  //   console.log(" % d % d \ n ", maior, s);
-  //   return 0;
-  // }
+    for (i = 0; i < 10; i++) {
+      s += v[i];
+      if (v[i] > maior) {
+        maior = v[i];
+      }
+    }
+    console.log(" % d % d \ n ", maior, s);
+    return 0;
+  }
 
-  // chalange6();
+  challenge6();
 
   /**
    * 7 = Is Code
    */
 
-  function chalange7(base, altura) {
+  function challenge7(base, altura) {
     return "Área Total = " + base * altura;
   }
 
-  console.log(chalange7(10, 10));
+  console.log(challenge7(10, 10));
 
 
   /**
@@ -118,48 +118,48 @@
    * 10 = D
    */
 
-  // function chalange10() {
-  //   var a, b;
-  //   b = 5;
-  //   a = 0;
+  function challenge10() {
+    var a, b;
+    b = 5;
+    a = 0;
 
-  //   for (var i = 0; i <= b; i++) {
-  //     b = b + 2;
-  //     if (b > 10) {
-  //       break;
-  //     } else {
-  //       a = a + b;
-  //     }
-  //   }
+    for (var i = 0; i <= b; i++) {
+      b = b + 2;
+      if (b > 10) {
+        break;
+      } else {
+        a = a + b;
+      }
+    }
 
-  //   console.log(a);
-  // }
+    console.log(a);
+  }
 
-  // chalange10();
+  challenge10();
 
   /**
    * 11 = 
    */
 
-  function chalange11(numero) {
+  function challenge11(numero) {
     return numero * 2;
   }
 
-  var test11 = chalange11(10) == 20;
+  var test11 = challenge11(10) == 20;
 
-  console.log("10) O dobro é " + chalange11(10));
+  console.log("10) O dobro é " + challenge11(10));
   console.log("10) O resultado do test " + test11);
 
   /**
    * 12 = 
    */
 
-  function chalange12(lado1, lado2) {
+  function challenge12(lado1, lado2) {
     return lado1 * lado2;
   }
 
-  var test12 = chalange12(15, 11) == 165;
-  console.log("12) Área quadrada é " + chalange12(15, 11));
+  var test12 = challenge12(15, 11) == 165;
+  console.log("12) Área quadrada é " + challenge12(15, 11));
   console.log("12) Resultado do teste " + test12);
 
 
@@ -167,12 +167,12 @@
    * 13 = 
    */
 
-  function chalange13(valor1, valor2, valor3) {
+  function challenge13(valor1, valor2, valor3) {
     var total = valor1 + valor2 + valor3;
     return total / 3;
   }
 
-  var result13 = chalange13(10, 10, 10);
+  var result13 = challenge13(10, 10, 10);
   var test13 = result13 == 10;
 
   console.log("13) A média é " + result13);
@@ -259,8 +259,7 @@
     }
   }
 
-  numeroPrimo
-
+  
 
 
 })();
